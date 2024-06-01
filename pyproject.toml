@@ -1,0 +1,19 @@
+[project]
+name = "dataset-collector"
+version = "1.0.0"
+authors = [
+  { name="Yiwere Muftawu Mohammed", email="mohammedyiwere@gmail.com" },
+]
+description = "Easily collect image and video dataset for ML projects"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Github = "https://github.com/Muftawu/dataset-collector"
+Homepage = "https://github.com/pypa/dataset-collector"
+Issues = "https://github.com/pypa/dataset-collector/issues"
