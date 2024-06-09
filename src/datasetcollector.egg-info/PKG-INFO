@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: datasetcollector
+Version: 1.1.9
+Summary: Easily collect image and video dataset for ML projects
+Author-email: Yiwere Muftawu Mohammed <mohammedyiwere@gmail.com>
+Maintainer-email: Yiwere Muftawu Mohammed <mohammedyiwere@gmail.com>
+Project-URL: Repository, https://github.com/Muftawu/dataset-collector
+Project-URL: Bug Tracker, https://github.com/Muftawu/dataset-collector/issues
+Keywords: dataset,collector,machine learning,dataset collector
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python>=4.8.0
+Requires-Dist: termcolor
+
+ ## DATASET COLLECTOR 
+
+ This is a simple python library to help machine learning developers collect image and video dataset for their projects.
+
+ With just three lines of python code, you can collect as many images as you require.
+
+ ```python
+
+    EXAMPLE CODE TO COLLECT IMAGES
+
+    from datasetcollector.collector import Collector
+
+    # create collector instance with folder name and camera id
+    mycollector = Collector('folder_name', 0)
+
+    # collect images 
+    mycollector.collect_images(5, 'jpg', 1)
+
+    OUTPUT 
+      A new folder 'folder_name' which stores the captured images
+
+ ```
+
+  > [!NOTE]
+  > The video collector will be released soon.

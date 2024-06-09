@@ -9,8 +9,8 @@ import cv2
 import os 
 import time 
 import typing
-from src.dataset_collector.file_ops import copy_folder, delete_folder
-from src.dataset_collector.loggings import warning_error, warning_info, warning_success
+from datasetcollector.file_ops import copy_folder, delete_folder
+from datasetcollector.loggings import warning_error, warning_info, warning_success
 import sys 
 
 class Collector:
@@ -26,6 +26,7 @@ class Collector:
         Initialize the Collector object.
 
         :param dst: output directory to store collected data
+        :param cap_object: camera id (use 0 for builtin camera)
         """
         self.dst = dst 
         self.cap_object = cap_object
@@ -97,7 +98,7 @@ class Collector:
 EXAMPLE CODE TO COLLECT IMAGES
 
 # import 'Collector' class
-from Collector import Collector
+from dataset_collector.collector import Collector
 
 # create collector instance 
 mycollector = Collector('folder_name', 0)

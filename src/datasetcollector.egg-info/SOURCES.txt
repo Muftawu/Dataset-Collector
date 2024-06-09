@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/datasetcollector/__init__.py
+src/datasetcollector/collector.py
+src/datasetcollector/file_ops.py
+src/datasetcollector/loggings.py
+src/datasetcollector.egg-info/PKG-INFO
+src/datasetcollector.egg-info/SOURCES.txt
+src/datasetcollector.egg-info/dependency_links.txt
+src/datasetcollector.egg-info/requires.txt
+src/datasetcollector.egg-info/top_level.txt
